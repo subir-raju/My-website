@@ -224,3 +224,33 @@ a {
 .skills .items .item img {
   width: 80px;
 }
+
+/*Contact*/
+
+
+.contact-icon {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icon .items {
+  background-color: black;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25%;
+  border: 2px solid rosybrown;
+}
+.contact-icon .items:hover {
+  background-color: brown;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-icon .items .icons {
+  font-size: 2rem;
+}
