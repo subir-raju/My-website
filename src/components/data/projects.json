@@ -1,0 +1,26 @@
+[
+    {
+        "key": 1,
+        "title": "Online Air Ticket Management System",
+        "imageSrc": "images/air.png",
+        "description": "As a part of CSE482 (Internet and Web Technology) course, designed and eveloped a website where user can register and then search for flight and on availability, user can book and pay for the ticket and a virtual ticket will be displayed with flight information on the screen.",
+        "demo": "https://github.com/subir-raju",
+        "source": "https://www.github.com"
+    },
+    {
+        "key": 2,
+        "title": "Docket",
+        "imageSrc": "images/docket.png",
+        "description": "As a part of CSE299 (Junior Design Project) course, developed a website through which user can login and then keep track of movies, tv-shows, anime, games, and books user has watched/played/read or is watching/ playing/ reading or is planning to watch/play/read and post blogs.",
+        "demo": "https://github.com/subir-raju",
+        "source": "https://www.github.com"
+    },
+    {
+        "key": 3,
+        "title": "InTrack",
+        "imageSrc": "images/air.png",
+        "description": "A web-based technology to help the garments industry to detect the defects in readymade garments.",
+        "demo": "https://github.com/subir-raju",
+        "source": "https://www.github.com"
+    }
+]
