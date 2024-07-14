@@ -1,0 +1,31 @@
+[
+    {
+        "id":1,
+        "organisation": "Tampere University",
+        "degree": "Master of Science in Data Science",
+        "startDate": "August, 2023",
+        "endDate": "Present",
+        "location": "Tampere, Finland",
+        "imageSrc": "images/tau.png"
+    },
+
+    {
+        "id":2,
+        "organisation": "Freie Universität Berlin",
+        "degree": "Master of Science in Computational Sciences",
+        "startDate": "September, 2022",
+        "endDate": "April, 2023",
+        "location": "Berlin, Germany",  
+        "imageSrc": "images/fub.png"
+    },
+
+    {
+        "id":3,
+        "organisation": "North South University",
+        "degree": "Bachelor Science in Computer Science and Engineering",
+        "startDate": "January, 2017",
+        "endDate": "April, 2021",
+        "location": "Dhaka, Bangladesh",            
+        "imageSrc": "images/nsu.jpeg"
+    }
+]

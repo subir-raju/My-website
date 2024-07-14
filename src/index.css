@@ -140,3 +140,27 @@ a {
   }
 
 }
+
+/*Education*/
+.edu {
+  width: 900px;
+  align-items: center;
+  text-align: center;
+}
+
+.edu-left img{
+  height: 100px;
+  width: 100px;
+}
+.edu-items {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #4A4042;
+  align-items: center;
+  margin: 30px;
+  padding: 50px;
+  width: 800px;
+  border-radius: 10px;
+  border: 1px solid rosybrown;
+  box-shadow: var(--box-shadow);
+}
