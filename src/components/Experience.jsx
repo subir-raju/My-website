@@ -9,7 +9,12 @@ const Experience = () => {
         {experience.map((data) => {
           return (
             <>
-              <div key={data.id} className="exp-items text-center">
+              <div
+                key={data.id}
+                className="exp-items text-center"
+                data-aos="fade-down-right"
+                data-aos-duration="1000"
+              >
                 <div className="exp-left">
                   <img src={`/assets/${data.imageSrc}`} alt="" />
                 </div>

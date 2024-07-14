@@ -9,7 +9,12 @@ const Education = () => {
         {education.map((data) => {
           return (
             <>
-              <div key={data.id} className="edu-items text-center my-5">
+              <div
+                key={data.id}
+                className="edu-items text-center my-5"
+                data-aos="fade-down-right"
+                data-aos-duration="1000"
+              >
                 <div className="edu-left">
                   <img src={`/assets/${data.imageSrc}`} alt="" />
                 </div>
