@@ -8,16 +8,16 @@ import { FaWhatsapp } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
-      <div className="container contact">
+      <div className="container contact" id="contact">
         <h1>CONTACT ME</h1>
         <div className="contact-icon">
           <a href="mailto:subirdeyraju@gmail.com" className="items">
             <MdOutlineMailOutline className="icons" />
           </a>
-          <a href="#" className="items">
+          <a href="https://www.linkedin.com/in/subir-dey/" className="items">
             <FaLinkedin className="icons" />
           </a>
-          <a href="#" className="items">
+          <a href="https://github.com/subir-raju" className="items">
             <FaGithub className="icons" />
           </a>
           <a href="#" className="items">

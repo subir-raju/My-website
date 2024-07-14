@@ -5,7 +5,7 @@ import mainpic from "./data/img.json";
 const Home = () => {
   return (
     <>
-      <div className="container home">
+      <div className="container home" id ="home">
         <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
           <h1>Moi, olen Subir. Opiskelen datatieteitä maisteriksi Tampereen yliopistossa.</h1>
           <a

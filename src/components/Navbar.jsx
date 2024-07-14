@@ -4,13 +4,13 @@ const Navbar = () => {
   return (
     <>
       <div className="container nav_bar">
-        <div className="left nav-items">SUBIR'S PAGE</div>
+        <div className="left nav-items">Portfolio</div>
         <div className="right">
-          <li className="nav-items">Home</li>
-          <li className="nav-items">About</li>
-          <li className="nav-items">Blog</li>
-          <li className="nav-items">Projects</li>
-          <li className="nav-items">Contact</li>
+          <a href="home" className="nav-items">Home</a>
+          <a href="about" className="nav-items">About</a>
+          <a href="blog" className="nav-items">Blog</a>
+          <a href="#projects" className="nav-items">Projects</a>
+          <a href="#contact" className="nav-items">Contact</a>
         </div>
       </div>
     </>
