@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "role": "Frontend Software Engineer",
+        "organisation": "HypeScout",
+        "startDate": "July, 2021",
+        "endDate": "August, 2022",
+        "location": "Dhaka, Bangladesh",
+        "experience": [
+            "Worked on modern server-rendered web application as per business needs",
+            "Created a complex state management store to serve the application’s global needs",
+            "Improved performance by cutting down unnecessary re-renders within the application’s state tree"
+        ],
+        "imageSrc": "images/hypescout.png"
+    }
+]

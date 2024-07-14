@@ -13,7 +13,7 @@ const Home = () => {
             download={"resume.pdf"}
             className="btn btn-outline-warning"
           >
-            Download Resume
+            Download My Resume
           </a>
         </div>
         <div className="right" data-aos="fade-up-left" data-aos-duration="1000">

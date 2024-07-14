@@ -164,3 +164,63 @@ a {
   border: 1px solid rosybrown;
   box-shadow: var(--box-shadow);
 }
+
+/* Experience page*/
+.exp {
+  width: 900px;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.exp-left img{
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+}
+
+.exp-items {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4A4042;
+  align-items: center;
+  margin: 20px;
+  padding: 30px;
+  width: 800px;
+  border-radius: 10px;
+  border: 1px solid rosybrown;
+  box-shadow: var(--box-shadow);
+}
+
+/*SKILLS*/
+
+.skills {
+  width: 900px;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px
+}
+
+.skills .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 700px;
+  margin: auto;
+}
+
+.skills .items .item {
+  width: calc(33.33%);
+  margin: 20px;
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rosybrown;
+  box-shadow: var(--box-shadow);
+
+}
+.skills .items .item img {
+  width: 80px;
+}
