@@ -1,30 +1,27 @@
-import React, { useEffect } from "react";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Education from "./components/Education";
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import Land from './components/Land';
+import About from './components/pages/About';
+import Research from "./components/pages/Research";
+import Blog from "./components/pages/Blog";
+import Contactme from "./components/pages/Contactme";
+import Home from "./components/pages/Home"
+
 
 const App = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
+
   return (
     <>
       <Navbar />
-
-      <div className="container">
-        <Home />
-        <Education />
-        <Experience />
-        <Skills />
-        <Projects />
-        <Contact />
-      </div>
+      <Home />
+      <Routes>
+        <Route path="/" element={<Land />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/research" element={<Research />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/contactme" element={<Contactme />} />
+      </Routes>
     </>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 import pdf from "./pdf/resume.pdf";
 import mainpic from "./data/img.json";
 
-const Home = () => {
+const Land = () => {
   return (
     <>
       <div className="container home" id ="home">
@@ -26,4 +26,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Land;

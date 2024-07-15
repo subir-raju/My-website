@@ -30,9 +30,11 @@ a {
   padding: 0px;
   text-align: center;
 }
+.right ul {
+  display: flex;
+}
 
-.right li {
-   display: block;
+.right ul li {
   height: 100%;
   font-size: 20px;
   position: relative;
@@ -46,8 +48,9 @@ a {
   text-align: center;
   padding: 0 10px;
   margin-right: 0 30px;
+  
 }
-
+/*
 .right li:after,
 .right li:before {
   content: "";
@@ -78,7 +81,7 @@ a {
 
 .right li:hover::after {
   width: 120%;
-}
+}*/
 
 /*home*/
 .home {
@@ -225,9 +228,23 @@ a {
   width: 80px;
 }
 
+/*Project*/
+
+.project {
+  
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+}
+
 /*Contact*/
 
-
+.contact {
+  width: 900px;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+}
 .contact-icon {
   height: 20vh;
   display: flex;
