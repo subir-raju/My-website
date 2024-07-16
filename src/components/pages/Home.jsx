@@ -20,7 +20,6 @@ const App = () => {
   }, []);
   return (
     <>
-      
       <div className="container">
         <Land />
         <Education />
@@ -29,13 +28,6 @@ const App = () => {
         <Projects />
         <Contact />
       </div>
-      <Routes>
-        <Route path="/" element={<Land />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/research" element={<Research />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contactme" element={<Contactme />} />
-      </Routes>
     </>
   );
 };
