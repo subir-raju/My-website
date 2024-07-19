@@ -1,11 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logopic from "./data/navlogo.json"
 
 const Navbar = () => {
   return (
     <>
       <div className="container nav_bar">
-        <div className="left nav-items">Portfolio</div>
+        <div className="left nav-items">
+          <div className="nav-img">
+            <ul>
+              <li>
+                <Link to="/">
+                  <img src={`/assets/${logopic.imgSrc}`} alt="logo" />
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
         <div className="right">
           <ul>
             <li>
