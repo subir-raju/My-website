@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logopic from "./data/navlogo.json"
+import mainpic from "./data/img.json"
 
 const Navbar = () => {
   return (
@@ -11,7 +11,7 @@ const Navbar = () => {
             <ul>
               <li>
                 <Link to="/">
-                  <img src={`/assets/${logopic.imgSrc}`} alt="logo" />
+                  <img src={`/assets/${mainpic.imgSrc}`} alt="logo" />
                 </Link>
               </li>
             </ul>

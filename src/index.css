@@ -14,25 +14,27 @@ a {
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
+  width: 80%;
+  height: 100%;
  
   
 } 
 .nav_bar .nav-items .nav-img img {
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
   border-radius: 100%;
 }
 
 .nav_bar .nav-items .nav-img ul li {
   height: 100%;
-  font-size: 20px;
+  font-size: 1.2rem;
   display: flex;
   margin: auto;
   
 }
 
 .nav_bar .nav-items {
-  padding: 15px;
+  padding: 0px;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -42,7 +44,6 @@ a {
   display: flex;
   align-items: center;
   list-style: none;
-  padding: 0px;
   text-align: center;
 }
 .right ul {
@@ -285,4 +286,20 @@ a {
 
 .contact-icon .items .icons {
   font-size: 2rem;
+}
+
+/*BLOG*/
+
+.blog {
+  background-color: red;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.blog .blog-raw .blog-body {
+  background-color: rosybrown;
+  border-radius: 15px;
+  box-shadow: var(--box-shadow);
 }
